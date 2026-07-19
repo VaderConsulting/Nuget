@@ -1,0 +1,17 @@
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Debug\net10.0\NuGetAudit.Core.deps.json
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Debug\net10.0\NuGetAudit.Core.dll
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Debug\net10.0\NuGetAudit.Core.pdb
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Debug\net10.0\NuGetAudit.Intelligence.dll
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Debug\net10.0\NuGetAudit.Intelligence.pdb
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\NuGetAudit.Core.csproj.AssemblyReference.cache
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\NuGetAudit.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\NuGetAudit.Core.AssemblyInfoInputs.cache
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\NuGetAudit.Core.AssemblyInfo.cs
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\NuGetAudit.Core.csproj.CoreCompileInputs.cache
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\NuGetAud.ECC6899C.Up2Date
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\NuGetAudit.Core.dll
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\refint\NuGetAudit.Core.dll
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\NuGetAudit.Core.pdb
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Debug\net10.0\ref\NuGetAudit.Core.dll
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Debug\net10.0\NuGetAudit.DbUtilities.dll
+C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Debug\net10.0\NuGetAudit.DbUtilities.pdb

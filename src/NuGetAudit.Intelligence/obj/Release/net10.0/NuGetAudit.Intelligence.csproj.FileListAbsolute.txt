@@ -1,0 +1,11 @@
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\bin\Release\net10.0\NuGetAudit.Intelligence.deps.json
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\bin\Release\net10.0\NuGetAudit.Intelligence.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\bin\Release\net10.0\NuGetAudit.Intelligence.pdb
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\obj\Release\net10.0\NuGetAudit.Intelligence.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\obj\Release\net10.0\NuGetAudit.Intelligence.AssemblyInfoInputs.cache
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\obj\Release\net10.0\NuGetAudit.Intelligence.AssemblyInfo.cs
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\obj\Release\net10.0\NuGetAudit.Intelligence.csproj.CoreCompileInputs.cache
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\obj\Release\net10.0\NuGetAudit.Intelligence.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\obj\Release\net10.0\refint\NuGetAudit.Intelligence.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\obj\Release\net10.0\NuGetAudit.Intelligence.pdb
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Intelligence\obj\Release\net10.0\ref\NuGetAudit.Intelligence.dll

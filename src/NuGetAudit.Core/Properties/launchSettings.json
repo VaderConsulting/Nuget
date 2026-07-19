@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NuGetAudit.Core": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\windo\\OneDrive\\Documents\\Development\\Care\\Care.slnx\""
+    }
+  }
+}

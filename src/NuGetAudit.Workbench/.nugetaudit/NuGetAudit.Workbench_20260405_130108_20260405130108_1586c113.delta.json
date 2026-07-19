@@ -1,0 +1,84 @@
+{
+  "CurrentSnapshotId": "20260405130108_1586c113",
+  "PreviousSnapshotId": "20260405030917_13d28a93",
+  "IsChanged": true,
+  "ComparisonNote": null,
+  "Changes": [
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.WORKBENCH/NUGETAUDIT.WORKBENCH.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.WORKBENCH/NUGETAUDIT.WORKBENCH.CSPROJ|NET10.0-WINDOWS7.0|NONE|NUGET.FRAMEWORKS",
+      "ProjectName": "NuGetAudit.Workbench",
+      "PackageId": "NuGet.Frameworks",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "7.3.0",
+      "CurrentResolvedVersion": "7.3.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": "net10.0-windows7.0",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "NuGet.Common",
+        "NuGetAudit.Core"
+      ],
+      "CurrentDependencyParents": [
+        "NuGet.Common",
+        "NuGetAudit.Core",
+        "NuGetAudit.Presentation"
+      ],
+      "PreviousDependencyPath": [
+        "NuGet.Frameworks",
+        "NuGet.Common",
+        "NuGet.Configuration",
+        "NuGet.DependencyResolver.Core",
+        "NuGet.ProjectModel",
+        "NuGetAudit.Core"
+      ],
+      "CurrentDependencyPath": [
+        "NuGet.Frameworks",
+        "NuGet.Common",
+        "NuGet.Configuration",
+        "NuGet.DependencyResolver.Core",
+        "NuGet.ProjectModel",
+        "NuGetAudit.Core"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "7.3.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "7.3.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    }
+  ],
+  "DependencyEdgeChanges": [
+    {
+      "ProjectName": "NuGetAudit.Workbench",
+      "FromPackageId": "NuGetAudit.Presentation",
+      "ToPackageId": "NuGet.Frameworks",
+      "TargetFrameworkMoniker": "net10.0-windows7.0",
+      "ChangeType": "Added"
+    }
+  ],
+  "KnowledgeChanges": []
+}

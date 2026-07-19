@@ -1,0 +1,1181 @@
+{
+  "GeneratedUtc": "2026-04-05T12:49:53.2945517+00:00",
+  "Packages": [
+    {
+      "PackageId": "Microsoft.Data.Sqlite",
+      "ResolvedVersion": "10.0.0",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "10.0.5",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "10.0.5",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 10.0.5."
+      },
+      "Criticality": {
+        "RiskScore": 32.3,
+        "AlertScore": 43.4,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 8,
+            "Weight": 8,
+            "Explanation": "Package is referenced directly and is therefore explicitly owned by the consuming project."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 10.0.5."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 10.0.5."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 10.0.5."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 4,
+            "Weight": 6,
+            "Explanation": "Issue has existed across prior analyses."
+          }
+        ],
+        "Summary": "Risk 32.30, alert 43.40. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "Microsoft.Data.Sqlite.Core",
+      "ResolvedVersion": "10.0.0",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "10.0.5",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "10.0.5",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 10.0.5."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 10.0.5."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 10.0.5."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 10.0.5."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "Microsoft.NETCore.Platforms",
+      "ResolvedVersion": "1.1.0",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "1.1.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "1.1.2",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 1.1.2."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 1.1.2."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 1.1.2."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 1.1.2."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "NETStandard.Library",
+      "ResolvedVersion": "2.0.3",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "2.0.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Latest compatible stable release is more than a year old on nuget.org; evaluate maintenance and alternatives."
+      },
+      "Criticality": {
+        "RiskScore": 35,
+        "AlertScore": 44,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 8,
+            "Weight": 8,
+            "Explanation": "Package is referenced directly and is therefore explicitly owned by the consuming project."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 7,
+            "Weight": 8,
+            "Explanation": "Latest compatible stable version was published more than a year ago on NuGet.org."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 6,
+            "Weight": 8,
+            "Explanation": "Remediation path is unclear or may require manual investigation."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 6,
+            "Weight": 7,
+            "Explanation": "No concrete fix version is currently known."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 4,
+            "Weight": 6,
+            "Explanation": "Issue has existed across prior analyses."
+          }
+        ],
+        "Summary": "Risk 35.00, alert 44.00. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+      "ResolvedVersion": "2.1.11",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "3.0.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "3.0.2",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 3.0.2."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 3.0.2."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 3.0.2."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 3.0.2."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "SQLitePCLRaw.core",
+      "ResolvedVersion": "2.1.11",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "3.0.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "3.0.2",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 3.0.2."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 3.0.2."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 3.0.2."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 3.0.2."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "SQLitePCLRaw.lib.e_sqlite3",
+      "ResolvedVersion": "2.1.11",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "2.1.11",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Latest compatible stable release is more than a year old on nuget.org; evaluate maintenance and alternatives."
+      },
+      "Criticality": {
+        "RiskScore": 34.8,
+        "AlertScore": 49.8,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 7,
+            "Weight": 8,
+            "Explanation": "Latest compatible stable version was published more than a year ago on NuGet.org."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 6,
+            "Weight": 8,
+            "Explanation": "Remediation path is unclear or may require manual investigation."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 6,
+            "Weight": 7,
+            "Explanation": "No concrete fix version is currently known."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 34.80, alert 49.80. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "SQLitePCLRaw.provider.e_sqlite3",
+      "ResolvedVersion": "2.1.11",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "3.0.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "3.0.2",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 3.0.2."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 3.0.2."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 3.0.2."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 3.0.2."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "System.Buffers",
+      "ResolvedVersion": "4.4.0",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "4.6.1",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 4.6.1."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 4.6.1."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 4.6.1."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 4.6.1."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "System.Memory",
+      "ResolvedVersion": "4.5.3",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "4.6.3",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 4.6.3."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 4.6.3."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 4.6.3."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 4.6.3."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "System.Numerics.Vectors",
+      "ResolvedVersion": "4.4.0",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "4.6.1",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 4.6.1."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 4.6.1."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 4.6.1."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 4.6.1."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    },
+    {
+      "PackageId": "System.Runtime.CompilerServices.Unsafe",
+      "ResolvedVersion": "4.5.2",
+      "FirstObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LastObservedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "FirstRequiresAttentionUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestStatusChangedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestDeterminedUtc": "2026-04-05T12:49:53.2945517+00:00",
+      "LatestKnownHealth": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "6.1.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "6.1.2",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 6.1.2."
+      },
+      "Criticality": {
+        "RiskScore": 32.1,
+        "AlertScore": 49.2,
+        "RiskBand": "Medium",
+        "AlertBand": "Medium",
+        "Factors": [
+          {
+            "Factor": "VulnerabilitySeverity",
+            "RawScore": 0,
+            "Weight": 20,
+            "Explanation": "No known vulnerability severity is currently recorded."
+          },
+          {
+            "Factor": "Exploitability",
+            "RawScore": 0,
+            "Weight": 15,
+            "Explanation": "No exploitability signals are currently known."
+          },
+          {
+            "Factor": "DependencyOwnership",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package is transitive and inherited through the dependency graph."
+          },
+          {
+            "Factor": "Reach",
+            "RawScore": 2,
+            "Weight": 12,
+            "Explanation": "Package knowledge currently applies across 1 project instance(s)."
+          },
+          {
+            "Factor": "ProductionRelevance",
+            "RawScore": 8,
+            "Weight": 10,
+            "Explanation": "Package appears in a production-relevant dependency path."
+          },
+          {
+            "Factor": "LifecycleState",
+            "RawScore": 4,
+            "Weight": 8,
+            "Explanation": "Package has a newer stable version available: 6.1.2."
+          },
+          {
+            "Factor": "RemediationDifficulty",
+            "RawScore": 3,
+            "Weight": 8,
+            "Explanation": "Remediation appears to be a version upgrade to 6.1.2."
+          },
+          {
+            "Factor": "Age",
+            "RawScore": 2,
+            "Weight": 6,
+            "Explanation": "Issue age is measured from first observation at 2026-04-05T12:49:53.2945517\u002B00:00."
+          },
+          {
+            "Factor": "FixAvailability",
+            "RawScore": 9,
+            "Weight": 7,
+            "Explanation": "A recommended fix version is known: 6.1.2."
+          },
+          {
+            "Factor": "IntroductionRecency",
+            "RawScore": 9,
+            "Weight": 6,
+            "Explanation": "Issue was newly introduced in the current analysis window."
+          }
+        ],
+        "Summary": "Risk 32.10, alert 49.20. Primary driver: ProductionRelevance (Package appears in a production-relevant dependency path.)."
+      }
+    }
+  ]
+}

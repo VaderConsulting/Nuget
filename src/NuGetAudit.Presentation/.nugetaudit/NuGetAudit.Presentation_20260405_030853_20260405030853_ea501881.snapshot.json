@@ -1,0 +1,1431 @@
+{
+  "SnapshotId": "20260405030853_ea501881",
+  "CapturedUtc": "2026-04-05T03:08:53.1803274+00:00",
+  "NormalisedContentHash": "424EE76901D1FE82C8242E78F141BD1D90645AAFD1AFC960C4E0707115F5C8B2",
+  "AnalysisStatus": "Complete",
+  "Solution": {
+    "SolutionName": "NuGetAudit.Presentation",
+    "SolutionPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+    "SolutionKey": "C262D743B73F15AF",
+    "SourceIdentity": {
+      "IdentityKey": "C262D743B73F15AF",
+      "IdentityKind": "disk-path",
+      "MachineName": "SURFACELAPTOP7",
+      "InputPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+      "RepositoryRootPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation",
+      "GitRemoteUrl": null,
+      "GitRemoteKey": null
+    }
+  },
+  "Projects": [
+    {
+      "ProjectId": "C65D2660B9B3D2A0",
+      "ProjectName": "NuGetAudit.Presentation",
+      "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+      "ProjectStyle": "PackageReference",
+      "LoadState": "Loaded",
+      "AnalysisStatus": "Complete",
+      "TargetFrameworks": "net472;net10.0-windows",
+      "AssetsFilePath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\obj\\project.assets.json",
+      "PackagesLockFilePath": null,
+      "Packages": [
+        {
+          "PackageId": "Microsoft.Bcl.AsyncInterfaces",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "System.Text.Json"
+          ],
+          "DependencyPath": [
+            "Microsoft.Bcl.AsyncInterfaces",
+            "System.Text.Json"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.BCL.ASYNCINTERFACES"
+        },
+        {
+          "PackageId": "Microsoft.Data.Sqlite",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "NuGetAudit.DbUtilities"
+          ],
+          "DependencyPath": [
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.DATA.SQLITE"
+        },
+        {
+          "PackageId": "Microsoft.Data.Sqlite",
+          "RequestedVersion": "10.0.5",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS|NONE|MICROSOFT.DATA.SQLITE"
+        },
+        {
+          "PackageId": "Microsoft.Data.Sqlite",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [
+            "NuGetAudit.DbUtilities"
+          ],
+          "DependencyPath": [
+            "Microsoft.Data.Sqlite"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.DATA.SQLITE"
+        },
+        {
+          "PackageId": "Microsoft.Data.Sqlite",
+          "RequestedVersion": "10.0.5",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net472",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET472|NONE|MICROSOFT.DATA.SQLITE"
+        },
+        {
+          "PackageId": "Microsoft.Data.Sqlite.Core",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "Microsoft.Data.Sqlite"
+          ],
+          "DependencyPath": [
+            "Microsoft.Data.Sqlite.Core",
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.DATA.SQLITE.CORE"
+        },
+        {
+          "PackageId": "Microsoft.Data.Sqlite.Core",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [
+            "Microsoft.Data.Sqlite"
+          ],
+          "DependencyPath": [
+            "Microsoft.Data.Sqlite.Core",
+            "Microsoft.Data.Sqlite"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.DATA.SQLITE.CORE"
+        },
+        {
+          "PackageId": "Microsoft.Web.WebView2",
+          "RequestedVersion": null,
+          "ResolvedVersion": "1.0.3856.49",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "Microsoft.Web.WebView2"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": null,
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.WEB.WEBVIEW2"
+        },
+        {
+          "PackageId": "Microsoft.Web.WebView2",
+          "RequestedVersion": "1.0.3856.49",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": null,
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS|NONE|MICROSOFT.WEB.WEBVIEW2"
+        },
+        {
+          "PackageId": "Microsoft.Web.WebView2",
+          "RequestedVersion": null,
+          "ResolvedVersion": "1.0.3856.49",
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "Microsoft.Web.WebView2"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": null,
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.WEB.WEBVIEW2"
+        },
+        {
+          "PackageId": "Microsoft.Web.WebView2",
+          "RequestedVersion": "1.0.3856.49",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net472",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": null,
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET472|NONE|MICROSOFT.WEB.WEBVIEW2"
+        },
+        {
+          "PackageId": "NuGetAudit.DbUtilities",
+          "RequestedVersion": null,
+          "ResolvedVersion": "1.0.0",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": null,
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Removed",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|NUGETAUDIT.DBUTILITIES"
+        },
+        {
+          "PackageId": "NuGetAudit.DbUtilities",
+          "RequestedVersion": null,
+          "ResolvedVersion": "1.0.0",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": null,
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Removed",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|NUGETAUDIT.DBUTILITIES"
+        },
+        {
+          "PackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "RequestedVersion": null,
+          "ResolvedVersion": "2.1.11",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "Microsoft.Data.Sqlite"
+          ],
+          "DependencyPath": [
+            "SQLitePCLRaw.bundle_e_sqlite3",
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "3.0.2",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.BUNDLE_E_SQLITE3"
+        },
+        {
+          "PackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "RequestedVersion": null,
+          "ResolvedVersion": "2.1.11",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [
+            "Microsoft.Data.Sqlite"
+          ],
+          "DependencyPath": [
+            "SQLitePCLRaw.bundle_e_sqlite3",
+            "Microsoft.Data.Sqlite"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "3.0.2",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.BUNDLE_E_SQLITE3"
+        },
+        {
+          "PackageId": "SQLitePCLRaw.core",
+          "RequestedVersion": null,
+          "ResolvedVersion": "2.1.11",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "Microsoft.Data.Sqlite",
+            "Microsoft.Data.Sqlite.Core",
+            "SQLitePCLRaw.provider.dynamic_cdecl"
+          ],
+          "DependencyPath": [
+            "SQLitePCLRaw.core",
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "3.0.2",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.CORE"
+        },
+        {
+          "PackageId": "SQLitePCLRaw.core",
+          "RequestedVersion": null,
+          "ResolvedVersion": "2.1.11",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [
+            "Microsoft.Data.Sqlite",
+            "Microsoft.Data.Sqlite.Core",
+            "SQLitePCLRaw.provider.e_sqlite3"
+          ],
+          "DependencyPath": [
+            "SQLitePCLRaw.core",
+            "Microsoft.Data.Sqlite"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "3.0.2",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.CORE"
+        },
+        {
+          "PackageId": "SQLitePCLRaw.lib.e_sqlite3",
+          "RequestedVersion": null,
+          "ResolvedVersion": "2.1.11",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "SQLitePCLRaw.bundle_e_sqlite3"
+          ],
+          "DependencyPath": [
+            "SQLitePCLRaw.lib.e_sqlite3",
+            "SQLitePCLRaw.bundle_e_sqlite3",
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "2.1.11",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Abandoned",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.LIB.E_SQLITE3"
+        },
+        {
+          "PackageId": "SQLitePCLRaw.lib.e_sqlite3",
+          "RequestedVersion": null,
+          "ResolvedVersion": "2.1.11",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [
+            "SQLitePCLRaw.bundle_e_sqlite3"
+          ],
+          "DependencyPath": [
+            "SQLitePCLRaw.lib.e_sqlite3",
+            "SQLitePCLRaw.bundle_e_sqlite3",
+            "Microsoft.Data.Sqlite"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "2.1.11",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Abandoned",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.LIB.E_SQLITE3"
+        },
+        {
+          "PackageId": "SQLitePCLRaw.provider.dynamic_cdecl",
+          "RequestedVersion": null,
+          "ResolvedVersion": "2.1.11",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "SQLitePCLRaw.bundle_e_sqlite3"
+          ],
+          "DependencyPath": [
+            "SQLitePCLRaw.provider.dynamic_cdecl",
+            "SQLitePCLRaw.bundle_e_sqlite3",
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "3.0.2",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.PROVIDER.DYNAMIC_CDECL"
+        },
+        {
+          "PackageId": "SQLitePCLRaw.provider.e_sqlite3",
+          "RequestedVersion": null,
+          "ResolvedVersion": "2.1.11",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [
+            "SQLitePCLRaw.bundle_e_sqlite3"
+          ],
+          "DependencyPath": [
+            "SQLitePCLRaw.provider.e_sqlite3",
+            "SQLitePCLRaw.bundle_e_sqlite3",
+            "Microsoft.Data.Sqlite"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "3.0.2",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.PROVIDER.E_SQLITE3"
+        },
+        {
+          "PackageId": "System.Buffers",
+          "RequestedVersion": null,
+          "ResolvedVersion": "4.6.1",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "System.IO.Pipelines",
+            "System.Memory",
+            "System.Text.Encodings.Web",
+            "System.Text.Json"
+          ],
+          "DependencyPath": [
+            "System.Buffers",
+            "System.IO.Pipelines",
+            "System.Text.Json"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "4.6.1",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Abandoned",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.BUFFERS"
+        },
+        {
+          "PackageId": "System.IO.Pipelines",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "System.Text.Json"
+          ],
+          "DependencyPath": [
+            "System.IO.Pipelines",
+            "System.Text.Json"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.IO.PIPELINES"
+        },
+        {
+          "PackageId": "System.Memory",
+          "RequestedVersion": null,
+          "ResolvedVersion": "4.6.3",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "SQLitePCLRaw.core",
+            "System.IO.Pipelines",
+            "System.Text.Encodings.Web",
+            "System.Text.Json"
+          ],
+          "DependencyPath": [
+            "System.Memory",
+            "SQLitePCLRaw.core",
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "4.6.3",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Abandoned",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY"
+        },
+        {
+          "PackageId": "System.Numerics.Vectors",
+          "RequestedVersion": null,
+          "ResolvedVersion": "4.6.1",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "System.Memory"
+          ],
+          "DependencyPath": [
+            "System.Numerics.Vectors",
+            "System.Memory",
+            "SQLitePCLRaw.core",
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "4.6.1",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Abandoned",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.NUMERICS.VECTORS"
+        },
+        {
+          "PackageId": "System.Runtime.CompilerServices.Unsafe",
+          "RequestedVersion": null,
+          "ResolvedVersion": "6.1.2",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "System.Memory",
+            "System.Text.Encodings.Web",
+            "System.Text.Json",
+            "System.Threading.Tasks.Extensions"
+          ],
+          "DependencyPath": [
+            "System.Runtime.CompilerServices.Unsafe",
+            "System.Memory",
+            "SQLitePCLRaw.core",
+            "Microsoft.Data.Sqlite",
+            "NuGetAudit.DbUtilities"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "6.1.2",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Abandoned",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.RUNTIME.COMPILERSERVICES.UNSAFE"
+        },
+        {
+          "PackageId": "System.Text.Encodings.Web",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "System.Text.Json"
+          ],
+          "DependencyPath": [
+            "System.Text.Encodings.Web",
+            "System.Text.Json"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.ENCODINGS.WEB"
+        },
+        {
+          "PackageId": "System.Text.Json",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "System.Text.Json"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON"
+        },
+        {
+          "PackageId": "System.Text.Json",
+          "RequestedVersion": "10.0.5",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS|NONE|SYSTEM.TEXT.JSON"
+        },
+        {
+          "PackageId": "System.Text.Json",
+          "RequestedVersion": null,
+          "ResolvedVersion": "10.0.5",
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "DependencyParents": [],
+          "DependencyPath": [
+            "System.Text.Json"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SYSTEM.TEXT.JSON"
+        },
+        {
+          "PackageId": "System.Text.Json",
+          "RequestedVersion": "10.0.5",
+          "ResolvedVersion": null,
+          "ReferenceKind": "Direct",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": "net472",
+          "DependencyParents": [],
+          "DependencyPath": [],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "10.0.5",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": false
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET472|NONE|SYSTEM.TEXT.JSON"
+        },
+        {
+          "PackageId": "System.Threading.Tasks.Extensions",
+          "RequestedVersion": null,
+          "ResolvedVersion": "4.6.3",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "Microsoft.Bcl.AsyncInterfaces",
+            "System.IO.Pipelines",
+            "System.Text.Json"
+          ],
+          "DependencyPath": [
+            "System.Threading.Tasks.Extensions",
+            "Microsoft.Bcl.AsyncInterfaces",
+            "System.Text.Json"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": false,
+            "IsVulnerable": false,
+            "LatestStableVersion": "4.6.3",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Abandoned",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.THREADING.TASKS.EXTENSIONS"
+        },
+        {
+          "PackageId": "System.ValueTuple",
+          "RequestedVersion": null,
+          "ResolvedVersion": "4.6.1",
+          "ReferenceKind": "Transitive",
+          "IsCentralVersionManaged": false,
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "DependencyParents": [
+            "System.Text.Json"
+          ],
+          "DependencyPath": [
+            "System.ValueTuple",
+            "System.Text.Json"
+          ],
+          "HealthInfo": {
+            "IsDeprecated": false,
+            "IsObsolete": false,
+            "IsOutdated": true,
+            "IsVulnerable": false,
+            "LatestStableVersion": "4.6.2",
+            "DeprecationMessage": null,
+            "AlternatePackageId": null,
+            "AlternatePackageRange": null,
+            "MaxVulnerabilitySeverity": "None",
+            "Vulnerabilities": [],
+            "DevelopmentStatus": "Active",
+            "RequiresAttention": true
+          },
+          "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.VALUETUPLE"
+        }
+      ],
+      "DependencyEdges": [
+        {
+          "FromPackageId": "Microsoft.Bcl.AsyncInterfaces",
+          "ToPackageId": "System.Threading.Tasks.Extensions",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.BCL.ASYNCINTERFACES",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.THREADING.TASKS.EXTENSIONS"
+        },
+        {
+          "FromPackageId": "Microsoft.Data.Sqlite",
+          "ToPackageId": "Microsoft.Data.Sqlite.Core",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.DATA.SQLITE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.DATA.SQLITE.CORE"
+        },
+        {
+          "FromPackageId": "Microsoft.Data.Sqlite",
+          "ToPackageId": "Microsoft.Data.Sqlite.Core",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.DATA.SQLITE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.DATA.SQLITE.CORE"
+        },
+        {
+          "FromPackageId": "Microsoft.Data.Sqlite",
+          "ToPackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.DATA.SQLITE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.BUNDLE_E_SQLITE3"
+        },
+        {
+          "FromPackageId": "Microsoft.Data.Sqlite",
+          "ToPackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.DATA.SQLITE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.BUNDLE_E_SQLITE3"
+        },
+        {
+          "FromPackageId": "Microsoft.Data.Sqlite",
+          "ToPackageId": "SQLitePCLRaw.core",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.DATA.SQLITE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.CORE"
+        },
+        {
+          "FromPackageId": "Microsoft.Data.Sqlite",
+          "ToPackageId": "SQLitePCLRaw.core",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.DATA.SQLITE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.CORE"
+        },
+        {
+          "FromPackageId": "Microsoft.Data.Sqlite.Core",
+          "ToPackageId": "SQLitePCLRaw.core",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.DATA.SQLITE.CORE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.CORE"
+        },
+        {
+          "FromPackageId": "Microsoft.Data.Sqlite.Core",
+          "ToPackageId": "SQLitePCLRaw.core",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.DATA.SQLITE.CORE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.CORE"
+        },
+        {
+          "FromPackageId": "NuGetAudit.DbUtilities",
+          "ToPackageId": "Microsoft.Data.Sqlite",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|NUGETAUDIT.DBUTILITIES",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.DATA.SQLITE"
+        },
+        {
+          "FromPackageId": "NuGetAudit.DbUtilities",
+          "ToPackageId": "Microsoft.Data.Sqlite",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|NUGETAUDIT.DBUTILITIES",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|MICROSOFT.DATA.SQLITE"
+        },
+        {
+          "FromPackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "ToPackageId": "SQLitePCLRaw.lib.e_sqlite3",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.BUNDLE_E_SQLITE3",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.LIB.E_SQLITE3"
+        },
+        {
+          "FromPackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "ToPackageId": "SQLitePCLRaw.lib.e_sqlite3",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.BUNDLE_E_SQLITE3",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.LIB.E_SQLITE3"
+        },
+        {
+          "FromPackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "ToPackageId": "SQLitePCLRaw.provider.dynamic_cdecl",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.BUNDLE_E_SQLITE3",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.PROVIDER.DYNAMIC_CDECL"
+        },
+        {
+          "FromPackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "ToPackageId": "SQLitePCLRaw.provider.e_sqlite3",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.BUNDLE_E_SQLITE3",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.PROVIDER.E_SQLITE3"
+        },
+        {
+          "FromPackageId": "SQLitePCLRaw.core",
+          "ToPackageId": "System.Memory",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.CORE",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY"
+        },
+        {
+          "FromPackageId": "SQLitePCLRaw.provider.dynamic_cdecl",
+          "ToPackageId": "SQLitePCLRaw.core",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.PROVIDER.DYNAMIC_CDECL",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SQLITEPCLRAW.CORE"
+        },
+        {
+          "FromPackageId": "SQLitePCLRaw.provider.e_sqlite3",
+          "ToPackageId": "SQLitePCLRaw.core",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.PROVIDER.E_SQLITE3",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|SQLITEPCLRAW.CORE"
+        },
+        {
+          "FromPackageId": "System.IO.Pipelines",
+          "ToPackageId": "System.Buffers",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.IO.PIPELINES",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.BUFFERS"
+        },
+        {
+          "FromPackageId": "System.IO.Pipelines",
+          "ToPackageId": "System.Memory",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.IO.PIPELINES",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY"
+        },
+        {
+          "FromPackageId": "System.IO.Pipelines",
+          "ToPackageId": "System.Threading.Tasks.Extensions",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.IO.PIPELINES",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.THREADING.TASKS.EXTENSIONS"
+        },
+        {
+          "FromPackageId": "System.Memory",
+          "ToPackageId": "System.Buffers",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.BUFFERS"
+        },
+        {
+          "FromPackageId": "System.Memory",
+          "ToPackageId": "System.Numerics.Vectors",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.NUMERICS.VECTORS"
+        },
+        {
+          "FromPackageId": "System.Memory",
+          "ToPackageId": "System.Runtime.CompilerServices.Unsafe",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.RUNTIME.COMPILERSERVICES.UNSAFE"
+        },
+        {
+          "FromPackageId": "System.Text.Encodings.Web",
+          "ToPackageId": "System.Buffers",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.ENCODINGS.WEB",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.BUFFERS"
+        },
+        {
+          "FromPackageId": "System.Text.Encodings.Web",
+          "ToPackageId": "System.Memory",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.ENCODINGS.WEB",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY"
+        },
+        {
+          "FromPackageId": "System.Text.Encodings.Web",
+          "ToPackageId": "System.Runtime.CompilerServices.Unsafe",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.ENCODINGS.WEB",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.RUNTIME.COMPILERSERVICES.UNSAFE"
+        },
+        {
+          "FromPackageId": "System.Text.Json",
+          "ToPackageId": "Microsoft.Bcl.AsyncInterfaces",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|MICROSOFT.BCL.ASYNCINTERFACES"
+        },
+        {
+          "FromPackageId": "System.Text.Json",
+          "ToPackageId": "System.Buffers",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.BUFFERS"
+        },
+        {
+          "FromPackageId": "System.Text.Json",
+          "ToPackageId": "System.IO.Pipelines",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.IO.PIPELINES"
+        },
+        {
+          "FromPackageId": "System.Text.Json",
+          "ToPackageId": "System.Memory",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY"
+        },
+        {
+          "FromPackageId": "System.Text.Json",
+          "ToPackageId": "System.Runtime.CompilerServices.Unsafe",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.RUNTIME.COMPILERSERVICES.UNSAFE"
+        },
+        {
+          "FromPackageId": "System.Text.Json",
+          "ToPackageId": "System.Text.Encodings.Web",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.ENCODINGS.WEB"
+        },
+        {
+          "FromPackageId": "System.Text.Json",
+          "ToPackageId": "System.Threading.Tasks.Extensions",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.THREADING.TASKS.EXTENSIONS"
+        },
+        {
+          "FromPackageId": "System.Text.Json",
+          "ToPackageId": "System.ValueTuple",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.TEXT.JSON",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.VALUETUPLE"
+        },
+        {
+          "FromPackageId": "System.Threading.Tasks.Extensions",
+          "ToPackageId": "System.Runtime.CompilerServices.Unsafe",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "FromStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.THREADING.TASKS.EXTENSIONS",
+          "ToStablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.RUNTIME.COMPILERSERVICES.UNSAFE"
+        }
+      ],
+      "Diagnostics": [
+        {
+          "Code": "NUAUDREM",
+          "Severity": "Warning",
+          "Message": "Package \u0027NuGetAudit.DbUtilities\u0027 was not found on nuget.org (registration returned HTTP 404). Confirm the id, private feeds, or a replacement package.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "NuGetAudit.DbUtilities",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDREM",
+          "Severity": "Warning",
+          "Message": "Package \u0027NuGetAudit.DbUtilities\u0027 was not found on nuget.org (registration returned HTTP 404). Confirm the id, private feeds, or a replacement package.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "NuGetAudit.DbUtilities",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027SQLitePCLRaw.bundle_e_sqlite3\u0027 2.1.11 is outdated. Latest compatible stable version: 3.0.2.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027SQLitePCLRaw.bundle_e_sqlite3\u0027 2.1.11 is outdated. Latest compatible stable version: 3.0.2.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027SQLitePCLRaw.core\u0027 2.1.11 is outdated. Latest compatible stable version: 3.0.2.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "SQLitePCLRaw.core",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027SQLitePCLRaw.core\u0027 2.1.11 is outdated. Latest compatible stable version: 3.0.2.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "SQLitePCLRaw.core",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDABN",
+          "Severity": "Warning",
+          "Message": "Package \u0027SQLitePCLRaw.lib.e_sqlite3\u0027 2.1.11: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "SQLitePCLRaw.lib.e_sqlite3",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDABN",
+          "Severity": "Warning",
+          "Message": "Package \u0027SQLitePCLRaw.lib.e_sqlite3\u0027 2.1.11: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "SQLitePCLRaw.lib.e_sqlite3",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027SQLitePCLRaw.provider.dynamic_cdecl\u0027 2.1.11 is outdated. Latest compatible stable version: 3.0.2.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "SQLitePCLRaw.provider.dynamic_cdecl",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027SQLitePCLRaw.provider.e_sqlite3\u0027 2.1.11 is outdated. Latest compatible stable version: 3.0.2.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "SQLitePCLRaw.provider.e_sqlite3",
+          "TargetFrameworkMoniker": "net10.0-windows7.0",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDABN",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Buffers\u0027 4.6.1: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "System.Buffers",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDABN",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Memory\u0027 4.6.3: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "System.Memory",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDABN",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Numerics.Vectors\u0027 4.6.1: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "System.Numerics.Vectors",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDABN",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Runtime.CompilerServices.Unsafe\u0027 6.1.2: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "System.Runtime.CompilerServices.Unsafe",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDABN",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.Threading.Tasks.Extensions\u0027 4.6.3: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "System.Threading.Tasks.Extensions",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        },
+        {
+          "Code": "NUAUDOLD",
+          "Severity": "Warning",
+          "Message": "Package \u0027System.ValueTuple\u0027 4.6.1 is outdated. Latest compatible stable version: 4.6.2.",
+          "ProjectName": "NuGetAudit.Presentation",
+          "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Presentation\\NuGetAudit.Presentation.csproj",
+          "PackageId": "System.ValueTuple",
+          "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+          "HelpLink": null
+        }
+      ],
+      "Warnings": []
+    }
+  ],
+  "Warnings": [
+    "Package health metadata was not available for \u0027NuGetAudit.DbUtilities\u0027 from nuget.org.",
+    "Attention required: 16 package diagnostics are warnings."
+  ]
+}

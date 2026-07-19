@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/NuGetAudit.Core/NuGetAudit.Core.csproj" />
+    <Project Path="src/NuGetAudit.Intelligence/NuGetAudit.Intelligence.csproj" />
+    <Project Path="src/NuGetAudit.Runner/NuGetAudit.Runner.csproj" />
+    <Project Path="src/NuGetAudit.Presentation/NuGetAudit.Presentation.csproj" />
+    <Project Path="src/NuGetAudit.VisualStudioHost/NuGetAudit.VisualStudioHost.csproj" />
+    <Project Path="src/NuGetAudit.Workbench/NuGetAudit.Workbench.csproj" />
+  </Folder>
+</Solution>

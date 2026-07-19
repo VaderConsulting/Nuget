@@ -1,0 +1,226 @@
+{
+  "CurrentSnapshotId": "20260405030917_13d28a93",
+  "PreviousSnapshotId": null,
+  "IsChanged": false,
+  "ComparisonNote": null,
+  "Changes": [],
+  "DependencyEdgeChanges": [],
+  "KnowledgeChanges": [
+    {
+      "PackageId": "NuGetAudit.Core",
+      "ResolvedVersion": "1.0.0",
+      "DeterminedUtc": "2026-04-05T03:09:17.5296354+00:00",
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": null,
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Removed",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Package id was not found on nuget.org; confirm private feeds or a replacement package."
+      },
+      "Summary": "Attention is now required for this package version."
+    },
+    {
+      "PackageId": "NuGetAudit.DbUtilities",
+      "ResolvedVersion": "1.0.0",
+      "DeterminedUtc": "2026-04-05T03:09:17.5296354+00:00",
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": null,
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Removed",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Package id was not found on nuget.org; confirm private feeds or a replacement package."
+      },
+      "Summary": "Attention is now required for this package version."
+    },
+    {
+      "PackageId": "NuGetAudit.Intelligence",
+      "ResolvedVersion": "1.0.0",
+      "DeterminedUtc": "2026-04-05T03:09:17.5296354+00:00",
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": null,
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Removed",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Package id was not found on nuget.org; confirm private feeds or a replacement package."
+      },
+      "Summary": "Attention is now required for this package version."
+    },
+    {
+      "PackageId": "NuGetAudit.Presentation",
+      "ResolvedVersion": "1.0.0",
+      "DeterminedUtc": "2026-04-05T03:09:17.5296354+00:00",
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": null,
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Removed",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Package id was not found on nuget.org; confirm private feeds or a replacement package."
+      },
+      "Summary": "Attention is now required for this package version."
+    },
+    {
+      "PackageId": "SQLitePCLRaw.bundle_e_sqlite3",
+      "ResolvedVersion": "2.1.11",
+      "DeterminedUtc": "2026-04-05T03:09:17.5296354+00:00",
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "3.0.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "3.0.2",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 3.0.2."
+      },
+      "Summary": "Attention is now required for this package version."
+    },
+    {
+      "PackageId": "SQLitePCLRaw.core",
+      "ResolvedVersion": "2.1.11",
+      "DeterminedUtc": "2026-04-05T03:09:17.5296354+00:00",
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "3.0.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "3.0.2",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 3.0.2."
+      },
+      "Summary": "Attention is now required for this package version."
+    },
+    {
+      "PackageId": "SQLitePCLRaw.lib.e_sqlite3",
+      "ResolvedVersion": "2.1.11",
+      "DeterminedUtc": "2026-04-05T03:09:17.5296354+00:00",
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "2.1.11",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Latest compatible stable release is more than a year old on nuget.org; evaluate maintenance and alternatives."
+      },
+      "Summary": "Attention is now required for this package version."
+    },
+    {
+      "PackageId": "SQLitePCLRaw.provider.e_sqlite3",
+      "ResolvedVersion": "2.1.11",
+      "DeterminedUtc": "2026-04-05T03:09:17.5296354+00:00",
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": true,
+        "IsVulnerable": false,
+        "LatestStableVersion": "3.0.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": true
+      },
+      "Remediation": {
+        "RecommendedVersion": "3.0.2",
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": "Upgrade to 3.0.2."
+      },
+      "Summary": "Attention is now required for this package version."
+    }
+  ]
+}

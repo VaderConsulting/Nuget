@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <GeneratePkgDefFile>true</GeneratePkgDefFile>
+    <UseCodebase>true</UseCodebase>
+    <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
+    <IncludeDebugSymbolsInVSIXContainer>false</IncludeDebugSymbolsInVSIXContainer>
+    <CopyBuildOutputToOutputDirectory>true</CopyBuildOutputToOutputDirectory>
+    <CopyOutputSymbolsToOutputDirectory>true</CopyOutputSymbolsToOutputDirectory>
+    <VSSDKTargetPlatformRegRootSuffix>Exp</VSSDKTargetPlatformRegRootSuffix>
+    <TargetVsixContainerName>$(AssemblyName).vsix</TargetVsixContainerName>
+    <VsixIntermediatePath>$(MSBuildProjectDirectory)\obj\$(Configuration)\$(TargetFramework)\</VsixIntermediatePath>
+    <CreatePkgDefAssemblyToProcess>$(MSBuildProjectDirectory)\bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll</CreatePkgDefAssemblyToProcess>
+    <FileManifest>$(VsixIntermediatePath)files.json</FileManifest>
+    <TemplateFileManifest>$(VsixIntermediatePath)templateFiles.json</TemplateFileManifest>
+    <ResourceManifest>$(VsixIntermediatePath)resources.json</ResourceManifest>
+    <CtoFileManifest>$(VsixIntermediatePath)ctoFiles.json</CtoFileManifest>
+    <CtoCacheFile>$(VsixIntermediatePath)mergeCto.cache</CtoCacheFile>
+    <CreateTemplateManifestsCacheFile>$(VsixIntermediatePath)createTemplateManifests.cache</CreateTemplateManifestsCacheFile>
+    <TemplateOutputDirectory>$(VsixIntermediatePath)</TemplateOutputDirectory>
+    <CreateVsixContainerDependsOn>$(CreateVsixContainerDependsOn);Compile;GeneratePkgDef</CreateVsixContainerDependsOn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="3.1.4" />
+    <PackageReference Include="Microsoft.Build.Framework" Version="18.4.0" />
+    <PackageReference Include="Microsoft.IO.Redist" Version="6.1.3" />
+    <PackageReference Include="Microsoft.NET.StringTools" Version="18.4.0" />
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net472" Version="1.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3856.49" />
+    <PackageReference Include="Microsoft.VisualStudio.SDK.Analyzers" Version="17.7.98">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.14.2120">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Shell.15.0" Version="17.14.40264" />
+    <PackageReference Include="Microsoft.VisualStudio.Validation" Version="17.13.22" />
+    <PackageReference Include="Nerdbank.MessagePack" Version="1.1.25" />
+    <PackageReference Include="Nerdbank.Streams" Version="2.13.16" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="StreamJsonRpc" Version="2.24.84" />
+    <PackageReference Include="System.ComponentModel.Composition" Version="10.0.5" />
+    <PackageReference Include="System.Composition" Version="10.0.5" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="10.0.5" />
+    <PackageReference Include="System.Reflection.MetadataLoadContext" Version="10.0.5" />
+    <PackageReference Include="System.Security.AccessControl" Version="6.0.1" />
+    <PackageReference Include="System.Text.Json" Version="10.0.5" />
+    <PackageReference Include="System.Threading.AccessControl" Version="10.0.5" />
+    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="10.0.5" />
+    <PackageReference Include="System.ValueTuple" Version="4.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NuGetAudit.Presentation\NuGetAudit.Presentation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="source.extension.vsixmanifest">
+      <SubType>Designer</SubType>
+    </None>
+    <SourceVsixManifest Include="source.extension.vsixmanifest" />
+    <VSCTCompile Include="NuGetAudit.VisualStudioHost.vsct">
+      <ResourceName>Menus.ctmenu</ResourceName>
+    </VSCTCompile>
+  </ItemGroup>
+
+  <Import Project="$(PkgMicrosoft_VSSDK_BuildTools)\tools\vssdk\Microsoft.VsSDK.targets" Condition="'$(VsSdkBuildTargetsImported)' != 'true' and '$(PkgMicrosoft_VSSDK_BuildTools)' != '' and Exists('$(PkgMicrosoft_VSSDK_BuildTools)\tools\vssdk\Microsoft.VsSDK.targets')" />
+
+  <Target Name="CreateVsixAfterBuild" AfterTargets="Build">
+    <CallTarget Targets="CreateVsixContainer" />
+  </Target>
+
+</Project>

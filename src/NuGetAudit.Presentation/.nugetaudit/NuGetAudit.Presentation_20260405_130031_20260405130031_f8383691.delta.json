@@ -1,0 +1,660 @@
+{
+  "CurrentSnapshotId": "20260405130031_f8383691",
+  "PreviousSnapshotId": "20260405030853_ea501881",
+  "IsChanged": true,
+  "ComparisonNote": null,
+  "Changes": [
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|NUGET.FRAMEWORKS",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "NuGet.Frameworks",
+      "ChangeType": "Added",
+      "PreviousResolvedVersion": null,
+      "CurrentResolvedVersion": "7.3.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": null,
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [],
+      "CurrentDependencyParents": [],
+      "PreviousDependencyPath": [],
+      "CurrentDependencyPath": [
+        "NuGet.Frameworks"
+      ],
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "7.3.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS|NONE|NUGET.FRAMEWORKS",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "NuGet.Frameworks",
+      "ChangeType": "Added",
+      "PreviousResolvedVersion": null,
+      "CurrentResolvedVersion": null,
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": "7.3.0",
+      "TargetFrameworkMoniker": "net10.0-windows",
+      "PreviousReferenceKind": null,
+      "CurrentReferenceKind": "Direct",
+      "PreviousDependencyParents": [],
+      "CurrentDependencyParents": [],
+      "PreviousDependencyPath": [],
+      "CurrentDependencyPath": [],
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "7.3.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET10.0-WINDOWS7.0|NONE|NUGET.FRAMEWORKS",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "NuGet.Frameworks",
+      "ChangeType": "Added",
+      "PreviousResolvedVersion": null,
+      "CurrentResolvedVersion": "7.3.0",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": "net10.0-windows7.0",
+      "PreviousReferenceKind": null,
+      "CurrentReferenceKind": "Direct",
+      "PreviousDependencyParents": [],
+      "CurrentDependencyParents": [],
+      "PreviousDependencyPath": [],
+      "CurrentDependencyPath": [
+        "NuGet.Frameworks"
+      ],
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "7.3.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|NET472|NONE|NUGET.FRAMEWORKS",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "NuGet.Frameworks",
+      "ChangeType": "Added",
+      "PreviousResolvedVersion": null,
+      "CurrentResolvedVersion": null,
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": "7.3.0",
+      "TargetFrameworkMoniker": "net472",
+      "PreviousReferenceKind": null,
+      "CurrentReferenceKind": "Direct",
+      "PreviousDependencyParents": [],
+      "CurrentDependencyParents": [],
+      "PreviousDependencyPath": [],
+      "CurrentDependencyPath": [],
+      "PreviousHealthInfo": null,
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "7.3.0",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.BUFFERS",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "System.Buffers",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "4.6.1",
+      "CurrentResolvedVersion": "4.6.1",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "System.IO.Pipelines",
+        "System.Memory",
+        "System.Text.Encodings.Web",
+        "System.Text.Json"
+      ],
+      "CurrentDependencyParents": [
+        "System.IO.Pipelines",
+        "System.Memory",
+        "System.Text.Encodings.Web",
+        "System.Text.Json"
+      ],
+      "PreviousDependencyPath": [
+        "System.Buffers",
+        "System.IO.Pipelines",
+        "System.Text.Json"
+      ],
+      "CurrentDependencyPath": [
+        "System.Buffers",
+        "System.IO.Pipelines",
+        "System.Text.Json"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.MEMORY",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "System.Memory",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "4.6.3",
+      "CurrentResolvedVersion": "4.6.3",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "SQLitePCLRaw.core",
+        "System.IO.Pipelines",
+        "System.Text.Encodings.Web",
+        "System.Text.Json"
+      ],
+      "CurrentDependencyParents": [
+        "SQLitePCLRaw.core",
+        "System.IO.Pipelines",
+        "System.Text.Encodings.Web",
+        "System.Text.Json"
+      ],
+      "PreviousDependencyPath": [
+        "System.Memory",
+        "SQLitePCLRaw.core",
+        "Microsoft.Data.Sqlite",
+        "NuGetAudit.DbUtilities"
+      ],
+      "CurrentDependencyPath": [
+        "System.Memory",
+        "SQLitePCLRaw.core",
+        "Microsoft.Data.Sqlite",
+        "NuGetAudit.DbUtilities"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.NUMERICS.VECTORS",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "System.Numerics.Vectors",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "4.6.1",
+      "CurrentResolvedVersion": "4.6.1",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "System.Memory"
+      ],
+      "CurrentDependencyParents": [
+        "System.Memory"
+      ],
+      "PreviousDependencyPath": [
+        "System.Numerics.Vectors",
+        "System.Memory",
+        "SQLitePCLRaw.core",
+        "Microsoft.Data.Sqlite",
+        "NuGetAudit.DbUtilities"
+      ],
+      "CurrentDependencyPath": [
+        "System.Numerics.Vectors",
+        "System.Memory",
+        "SQLitePCLRaw.core",
+        "Microsoft.Data.Sqlite",
+        "NuGetAudit.DbUtilities"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.RUNTIME.COMPILERSERVICES.UNSAFE",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "System.Runtime.CompilerServices.Unsafe",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "6.1.2",
+      "CurrentResolvedVersion": "6.1.2",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "System.Memory",
+        "System.Text.Encodings.Web",
+        "System.Text.Json",
+        "System.Threading.Tasks.Extensions"
+      ],
+      "CurrentDependencyParents": [
+        "System.Memory",
+        "System.Text.Encodings.Web",
+        "System.Text.Json",
+        "System.Threading.Tasks.Extensions"
+      ],
+      "PreviousDependencyPath": [
+        "System.Runtime.CompilerServices.Unsafe",
+        "System.Memory",
+        "SQLitePCLRaw.core",
+        "Microsoft.Data.Sqlite",
+        "NuGetAudit.DbUtilities"
+      ],
+      "CurrentDependencyPath": [
+        "System.Runtime.CompilerServices.Unsafe",
+        "System.Memory",
+        "SQLitePCLRaw.core",
+        "Microsoft.Data.Sqlite",
+        "NuGetAudit.DbUtilities"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "6.1.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "6.1.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    },
+    {
+      "StablePackageInstanceKey": "C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|C:/USERS/WINDO/ONEDRIVE/DOCUMENTS/DEVELOPMENT/NUGET/SRC/NUGETAUDIT.PRESENTATION/NUGETAUDIT.PRESENTATION.CSPROJ|.NETFRAMEWORK,VERSION=V4.7.2|NONE|SYSTEM.THREADING.TASKS.EXTENSIONS",
+      "ProjectName": "NuGetAudit.Presentation",
+      "PackageId": "System.Threading.Tasks.Extensions",
+      "ChangeType": "MetadataChanged",
+      "PreviousResolvedVersion": "4.6.3",
+      "CurrentResolvedVersion": "4.6.3",
+      "PreviousRequestedVersion": null,
+      "CurrentRequestedVersion": null,
+      "TargetFrameworkMoniker": ".NETFramework,Version=v4.7.2",
+      "PreviousReferenceKind": "Transitive",
+      "CurrentReferenceKind": "Transitive",
+      "PreviousDependencyParents": [
+        "Microsoft.Bcl.AsyncInterfaces",
+        "System.IO.Pipelines",
+        "System.Text.Json"
+      ],
+      "CurrentDependencyParents": [
+        "Microsoft.Bcl.AsyncInterfaces",
+        "System.IO.Pipelines",
+        "System.Text.Json"
+      ],
+      "PreviousDependencyPath": [
+        "System.Threading.Tasks.Extensions",
+        "Microsoft.Bcl.AsyncInterfaces",
+        "System.Text.Json"
+      ],
+      "CurrentDependencyPath": [
+        "System.Threading.Tasks.Extensions",
+        "Microsoft.Bcl.AsyncInterfaces",
+        "System.Text.Json"
+      ],
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      }
+    }
+  ],
+  "DependencyEdgeChanges": [],
+  "KnowledgeChanges": [
+    {
+      "PackageId": "System.Buffers",
+      "ResolvedVersion": "4.6.1",
+      "DeterminedUtc": "2026-04-05T13:00:31.933947+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "System.Memory",
+      "ResolvedVersion": "4.6.3",
+      "DeterminedUtc": "2026-04-05T13:00:31.933947+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "System.Numerics.Vectors",
+      "ResolvedVersion": "4.6.1",
+      "DeterminedUtc": "2026-04-05T13:00:31.933947+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.1",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "System.Runtime.CompilerServices.Unsafe",
+      "ResolvedVersion": "6.1.2",
+      "DeterminedUtc": "2026-04-05T13:00:31.933947+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "6.1.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "6.1.2",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    },
+    {
+      "PackageId": "System.Threading.Tasks.Extensions",
+      "ResolvedVersion": "4.6.3",
+      "DeterminedUtc": "2026-04-05T13:00:31.933947+00:00",
+      "PreviousHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Abandoned",
+        "RequiresAttention": true
+      },
+      "CurrentHealthInfo": {
+        "IsDeprecated": false,
+        "IsObsolete": false,
+        "IsOutdated": false,
+        "IsVulnerable": false,
+        "LatestStableVersion": "4.6.3",
+        "DeprecationMessage": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "MaxVulnerabilitySeverity": "None",
+        "Vulnerabilities": [],
+        "DevelopmentStatus": "Active",
+        "RequiresAttention": false
+      },
+      "Remediation": {
+        "RecommendedVersion": null,
+        "AlternatePackageId": null,
+        "AlternatePackageRange": null,
+        "Summary": null
+      },
+      "Summary": "Development status is now Active. Remediation guidance changed."
+    }
+  ]
+}

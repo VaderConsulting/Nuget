@@ -1,0 +1,10 @@
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\bin\Release\netstandard2.0\NuGetAudit.DbUtilities.deps.json
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\bin\Release\netstandard2.0\NuGetAudit.DbUtilities.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\bin\Release\netstandard2.0\NuGetAudit.DbUtilities.pdb
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\obj\Release\netstandard2.0\NuGetAudit.DbUtilities.csproj.AssemblyReference.cache
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\obj\Release\netstandard2.0\NuGetAudit.DbUtilities.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\obj\Release\netstandard2.0\NuGetAudit.DbUtilities.AssemblyInfoInputs.cache
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\obj\Release\netstandard2.0\NuGetAudit.DbUtilities.AssemblyInfo.cs
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\obj\Release\netstandard2.0\NuGetAudit.DbUtilities.csproj.CoreCompileInputs.cache
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\obj\Release\netstandard2.0\NuGetAudit.DbUtilities.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.DbUtilities\obj\Release\netstandard2.0\NuGetAudit.DbUtilities.pdb

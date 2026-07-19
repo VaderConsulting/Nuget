@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable">
+  <Extern href="stdidcmd.h" />
+  <Extern href="vsshlids.h" />
+
+  <Commands package="guidNuGetAuditPackage">
+    <Groups>
+      <Group guid="guidNuGetAuditCommandSet" id="NuGetAuditGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS" />
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidNuGetAuditCommandSet" id="LoadLatestSnapshotCommand" priority="0x0100" type="Button">
+        <Parent guid="guidNuGetAuditCommandSet" id="NuGetAuditGroup" />
+        <Strings>
+          <ButtonText>Load NuGet Audit Diagnostics</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidNuGetAuditCommandSet" id="OpenDependencyExplorerCommand" priority="0x0110" type="Button">
+        <Parent guid="guidNuGetAuditCommandSet" id="NuGetAuditGroup" />
+        <Strings>
+          <ButtonText>Open NuGet Audit Dependency Explorer</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidNuGetAuditPackage" value="{9B7DE47C-0A2D-4E13-9658-7E8C4E55A861}" />
+    <GuidSymbol name="guidNuGetAuditCommandSet" value="{81A6C9D8-561F-4622-96D8-155A4C910E1D}">
+      <IDSymbol name="NuGetAuditGroup" value="0x1020" />
+      <IDSymbol name="LoadLatestSnapshotCommand" value="0x0100" />
+      <IDSymbol name="OpenDependencyExplorerCommand" value="0x0101" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>

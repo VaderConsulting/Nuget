@@ -1,0 +1,15 @@
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Release\net10.0\NuGetAudit.Core.deps.json
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Release\net10.0\NuGetAudit.Core.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Release\net10.0\NuGetAudit.Core.pdb
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Release\net10.0\NuGetAudit.Intelligence.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\bin\Release\net10.0\NuGetAudit.Intelligence.pdb
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\NuGetAudit.Core.csproj.AssemblyReference.cache
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\NuGetAudit.Core.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\NuGetAudit.Core.AssemblyInfoInputs.cache
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\NuGetAudit.Core.AssemblyInfo.cs
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\NuGetAudit.Core.csproj.CoreCompileInputs.cache
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\NuGetAud.ECC6899C.Up2Date
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\NuGetAudit.Core.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\refint\NuGetAudit.Core.dll
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\NuGetAudit.Core.pdb
+c:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\obj\Release\net10.0\ref\NuGetAudit.Core.dll

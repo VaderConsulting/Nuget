@@ -1,0 +1,296 @@
+# NuGet Audit Report - NuGetAudit.Core
+
+- Snapshot ID: `20260405030858_f566b13c`
+- Captured UTC: `2026-04-05T03:08:58.6646597+00:00`
+- Solution: `C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\NuGetAudit.Core.csproj`
+- Source identity key: `720E33C5926BC902`
+- Source identity kind: `disk-path`
+- Source machine: `SURFACELAPTOP7`
+- Repository root: `C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core`
+- Git remote: `-`
+- Analysis status: `Complete`
+- Projects analysed: `1`
+- Packages discovered: `46`
+- Direct packages: `22`
+- Transitive packages: `24`
+- Dependency edges: `55`
+- Error diagnostics: `0`
+- Warning diagnostics: `7`
+- Delta changed: `False`
+- Knowledge snapshot generated: `2026-04-05T03:08:58.6646597+00:00`
+
+## Attention Required
+
+| Severity | Project | Package | Message | TFM |
+|---|---|---|---|---|
+| Warning | NuGetAudit.Core | NuGetAudit.DbUtilities | Package 'NuGetAudit.DbUtilities' was not found on nuget.org (registration returned HTTP 404). Confirm the id, private feeds, or a replacement package. | net10.0 |
+| Warning | NuGetAudit.Core | NuGetAudit.Intelligence | Package 'NuGetAudit.Intelligence' was not found on nuget.org (registration returned HTTP 404). Confirm the id, private feeds, or a replacement package. | net10.0 |
+| Warning | NuGetAudit.Core | SQLitePCLRaw.bundle_e_sqlite3 | Package 'SQLitePCLRaw.bundle_e_sqlite3' 2.1.11 is outdated. Latest compatible stable version: 3.0.2. | net10.0 |
+| Warning | NuGetAudit.Core | SQLitePCLRaw.core | Package 'SQLitePCLRaw.core' 2.1.11 is outdated. Latest compatible stable version: 3.0.2. | net10.0 |
+| Warning | NuGetAudit.Core | SQLitePCLRaw.lib.e_sqlite3 | Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org. | net10.0 |
+| Warning | NuGetAudit.Core | SQLitePCLRaw.provider.e_sqlite3 | Package 'SQLitePCLRaw.provider.e_sqlite3' 2.1.11 is outdated. Latest compatible stable version: 3.0.2. | net10.0 |
+| Warning | NuGetAudit.Core | System.Security.Cryptography.Pkcs | Package 'System.Security.Cryptography.Pkcs' 8.0.1 is outdated. Latest compatible stable version: 10.0.5. | net10.0 |
+
+## Change Summary
+
+No previous accepted snapshot was available for comparison.
+
+## Knowledge Changes
+
+| Package | Version | Determined UTC | Previous Health | Current Health | Risk | Alert | Remediation | Summary |
+|---|---|---|---|---|---|---|---|---|
+| NuGetAudit.DbUtilities | 1.0.0 | 2026-04-05T03:08:58.6646597+00:00 | - | removed | 37.20 (Medium) | 52.20 (High) | Package id was not found on nuget.org; confirm private feeds or a replacement package. | Attention is now required for this package version. |
+| NuGetAudit.Intelligence | 1.0.0 | 2026-04-05T03:08:58.6646597+00:00 | - | removed | 37.20 (Medium) | 52.20 (High) | Package id was not found on nuget.org; confirm private feeds or a replacement package. | Attention is now required for this package version. |
+| SQLitePCLRaw.bundle_e_sqlite3 | 2.1.11 | 2026-04-05T03:08:58.6646597+00:00 | - | outdated->3.0.2 | 32.10 (Medium) | 49.20 (Medium) | Upgrade to 3.0.2. | Attention is now required for this package version. |
+| SQLitePCLRaw.core | 2.1.11 | 2026-04-05T03:08:58.6646597+00:00 | - | outdated->3.0.2 | 32.10 (Medium) | 49.20 (Medium) | Upgrade to 3.0.2. | Attention is now required for this package version. |
+| SQLitePCLRaw.lib.e_sqlite3 | 2.1.11 | 2026-04-05T03:08:58.6646597+00:00 | - | abandoned | 34.80 (Medium) | 49.80 (Medium) | Latest compatible stable release is more than a year old on nuget.org; evaluate maintenance and alternatives. | Attention is now required for this package version. |
+| SQLitePCLRaw.provider.e_sqlite3 | 2.1.11 | 2026-04-05T03:08:58.6646597+00:00 | - | outdated->3.0.2 | 32.10 (Medium) | 49.20 (Medium) | Upgrade to 3.0.2. | Attention is now required for this package version. |
+| System.Security.Cryptography.Pkcs | 8.0.1 | 2026-04-05T03:08:58.6646597+00:00 | - | outdated->10.0.5 | 32.10 (Medium) | 49.20 (Medium) | Upgrade to 10.0.5. | Attention is now required for this package version. |
+
+## Security and Health Transitions
+
+No package health transitions were detected relative to the previous accepted snapshot.
+
+## Dependency Relationship Changes
+
+No dependency edge changes were detected relative to the previous accepted snapshot.
+
+## Project Details
+
+### NuGetAudit.Core
+
+- Path: `C:\Users\windo\OneDrive\Documents\Development\Nuget\src\NuGetAudit.Core\NuGetAudit.Core.csproj`
+- Style: `PackageReference`
+- Load state: `Loaded`
+- Analysis status: `Complete`
+- Target frameworks: `net10.0`
+- Diagnostics:
+  - [Warning] Package 'NuGetAudit.DbUtilities' was not found on nuget.org (registration returned HTTP 404). Confirm the id, private feeds, or a replacement package.
+  - [Warning] Package 'NuGetAudit.Intelligence' was not found on nuget.org (registration returned HTTP 404). Confirm the id, private feeds, or a replacement package.
+  - [Warning] Package 'SQLitePCLRaw.bundle_e_sqlite3' 2.1.11 is outdated. Latest compatible stable version: 3.0.2.
+  - [Warning] Package 'SQLitePCLRaw.core' 2.1.11 is outdated. Latest compatible stable version: 3.0.2.
+  - [Warning] Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11: latest compatible stable matches the resolved version, but that release was published more than a year ago on nuget.org.
+  - [Warning] Package 'SQLitePCLRaw.provider.e_sqlite3' 2.1.11 is outdated. Latest compatible stable version: 3.0.2.
+  - [Warning] Package 'System.Security.Cryptography.Pkcs' 8.0.1 is outdated. Latest compatible stable version: 10.0.5.
+
+| Package | Kind | Requested | Resolved | Health | Vulnerability Detail | Risk | Alert | Knowledge Determined | Status Changed | Remediation | Central | Parents | Path | TFM |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| MessagePack | Direct | 3.1.4 | 3.1.4 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | StreamJsonRpc | MessagePack | net10.0 |
+| MessagePack.Annotations | Transitive | - | 3.1.4 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | MessagePack | MessagePack.Annotations -> MessagePack | net10.0 |
+| MessagePackAnalyzer | Transitive | - | 3.1.4 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | MessagePack | MessagePackAnalyzer -> MessagePack | net10.0 |
+| Microsoft.Build | Direct | 18.4.0 | 18.4.0 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | Microsoft.Build | net10.0 |
+| Microsoft.Build.Framework | Direct | 18.4.0 | 18.4.0 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Microsoft.Build | Microsoft.Build.Framework | net10.0 |
+| Microsoft.Build.Locator | Direct | 1.11.2 | 1.11.2 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | Microsoft.Build.Locator | net10.0 |
+| Microsoft.Data.Sqlite | Direct | 10.0.5 | 10.0.5 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGetAudit.DbUtilities | Microsoft.Data.Sqlite | net10.0 |
+| Microsoft.Data.Sqlite.Core | Transitive | - | 10.0.5 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Microsoft.Data.Sqlite | Microsoft.Data.Sqlite.Core -> Microsoft.Data.Sqlite | net10.0 |
+| Microsoft.NET.StringTools | Direct | 18.4.0 | 18.4.0 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | MessagePack, Microsoft.Build, Nerdbank.MessagePack | Microsoft.NET.StringTools | net10.0 |
+| Microsoft.VisualStudio.SDK.Analyzers | Direct | 17.7.98 | 17.7.98 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | Microsoft.VisualStudio.SDK.Analyzers | net10.0 |
+| Microsoft.VisualStudio.Threading.Only | Transitive | - | 17.14.15 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Nerdbank.Streams, StreamJsonRpc | Microsoft.VisualStudio.Threading.Only -> Nerdbank.Streams | net10.0 |
+| Microsoft.VisualStudio.Validation | Direct | 17.13.22 | 17.13.22 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Microsoft.VisualStudio.Threading.Only, Nerdbank.MessagePack, Nerdbank.Streams, StreamJsonRpc | Microsoft.VisualStudio.Validation | net10.0 |
+| Nerdbank.MessagePack | Direct | 1.1.25 | 1.1.25 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | StreamJsonRpc | Nerdbank.MessagePack | net10.0 |
+| Nerdbank.Streams | Direct | 2.13.16 | 2.13.16 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | StreamJsonRpc | Nerdbank.Streams | net10.0 |
+| Newtonsoft.Json | Direct | 13.0.4 | 13.0.4 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.Packaging, StreamJsonRpc | Newtonsoft.Json | net10.0 |
+| NuGet.Common | Transitive | - | 7.3.0 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.Configuration, NuGet.LibraryModel | NuGet.Common -> NuGet.Configuration -> NuGet.DependencyResolver.Core -> NuGet.ProjectModel | net10.0 |
+| NuGet.Configuration | Transitive | - | 7.3.0 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.DependencyResolver.Core, NuGet.Packaging | NuGet.Configuration -> NuGet.DependencyResolver.Core -> NuGet.ProjectModel | net10.0 |
+| NuGet.DependencyResolver.Core | Transitive | - | 7.3.0 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.ProjectModel | NuGet.DependencyResolver.Core -> NuGet.ProjectModel | net10.0 |
+| NuGet.Frameworks | Direct | 7.3.0 | 7.3.0 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.Common | NuGet.Frameworks | net10.0 |
+| NuGet.LibraryModel | Transitive | - | 7.3.0 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.DependencyResolver.Core | NuGet.LibraryModel -> NuGet.DependencyResolver.Core -> NuGet.ProjectModel | net10.0 |
+| NuGet.Packaging | Direct | 7.3.0 | 7.3.0 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.Protocol | NuGet.Packaging | net10.0 |
+| NuGet.ProjectModel | Direct | 7.3.0 | 7.3.0 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | NuGet.ProjectModel | net10.0 |
+| NuGet.Protocol | Transitive | - | 7.3.0 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.DependencyResolver.Core | NuGet.Protocol -> NuGet.DependencyResolver.Core -> NuGet.ProjectModel | net10.0 |
+| NuGet.Versioning | Direct | 7.3.0 | 7.3.0 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | NuGet.LibraryModel, NuGet.Packaging | NuGet.Versioning | net10.0 |
+| NuGetAudit.DbUtilities | Transitive | - | 1.0.0 | removed | - | 37.20 (Medium) | 52.20 (High) | 2026-04-05T03:08:58.6646597+00:00 | 2026-04-05T03:08:58.6646597+00:00 | Package id was not found on nuget.org; confirm private feeds or a replacement package. | No | - | NuGetAudit.DbUtilities | net10.0 |
+| NuGetAudit.Intelligence | Transitive | - | 1.0.0 | removed | - | 37.20 (Medium) | 52.20 (High) | 2026-04-05T03:08:58.6646597+00:00 | 2026-04-05T03:08:58.6646597+00:00 | Package id was not found on nuget.org; confirm private feeds or a replacement package. | No | - | NuGetAudit.Intelligence | net10.0 |
+| PolyType | Transitive | - | 1.2.1 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Nerdbank.MessagePack | PolyType -> Nerdbank.MessagePack | net10.0 |
+| SlnParser | Direct | 4.1.0 | 4.1.0 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | SlnParser | net10.0 |
+| SQLitePCLRaw.bundle_e_sqlite3 | Transitive | - | 2.1.11 | outdated->3.0.2 | - | 32.10 (Medium) | 49.20 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | 2026-04-05T03:08:58.6646597+00:00 | Upgrade to 3.0.2. | No | Microsoft.Data.Sqlite | SQLitePCLRaw.bundle_e_sqlite3 -> Microsoft.Data.Sqlite | net10.0 |
+| SQLitePCLRaw.core | Transitive | - | 2.1.11 | outdated->3.0.2 | - | 32.10 (Medium) | 49.20 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | 2026-04-05T03:08:58.6646597+00:00 | Upgrade to 3.0.2. | No | Microsoft.Data.Sqlite, Microsoft.Data.Sqlite.Core, SQLitePCLRaw.provider.e_sqlite3 | SQLitePCLRaw.core -> Microsoft.Data.Sqlite | net10.0 |
+| SQLitePCLRaw.lib.e_sqlite3 | Transitive | - | 2.1.11 | abandoned | - | 34.80 (Medium) | 49.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | 2026-04-05T03:08:58.6646597+00:00 | Latest compatible stable release is more than a year old on nuget.org; evaluate maintenance and alternatives. | No | SQLitePCLRaw.bundle_e_sqlite3 | SQLitePCLRaw.lib.e_sqlite3 -> SQLitePCLRaw.bundle_e_sqlite3 -> Microsoft.Data.Sqlite | net10.0 |
+| SQLitePCLRaw.provider.e_sqlite3 | Transitive | - | 2.1.11 | outdated->3.0.2 | - | 32.10 (Medium) | 49.20 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | 2026-04-05T03:08:58.6646597+00:00 | Upgrade to 3.0.2. | No | SQLitePCLRaw.bundle_e_sqlite3 | SQLitePCLRaw.provider.e_sqlite3 -> SQLitePCLRaw.bundle_e_sqlite3 -> Microsoft.Data.Sqlite | net10.0 |
+| StreamJsonRpc | Direct | 2.24.84 | 2.24.84 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | StreamJsonRpc | net10.0 |
+| System.ComponentModel.Composition | Direct | 10.0.5 | 10.0.5 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | System.ComponentModel.Composition | net10.0 |
+| System.Composition | Direct | 10.0.5 | 10.0.5 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | System.Composition | net10.0 |
+| System.Composition.AttributedModel | Transitive | - | 10.0.5 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | System.Composition, System.Composition.Convention, System.Composition.TypedParts | System.Composition.AttributedModel -> System.Composition | net10.0 |
+| System.Composition.Convention | Transitive | - | 10.0.5 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | System.Composition | System.Composition.Convention -> System.Composition | net10.0 |
+| System.Composition.Hosting | Transitive | - | 10.0.5 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | System.Composition, System.Composition.TypedParts | System.Composition.Hosting -> System.Composition | net10.0 |
+| System.Composition.Runtime | Transitive | - | 10.0.5 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | System.Composition, System.Composition.Hosting, System.Composition.TypedParts | System.Composition.Runtime -> System.Composition | net10.0 |
+| System.Composition.TypedParts | Transitive | - | 10.0.5 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | System.Composition | System.Composition.TypedParts -> System.Composition | net10.0 |
+| System.Configuration.ConfigurationManager | Direct | 10.0.5 | 10.0.5 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Microsoft.Build | System.Configuration.ConfigurationManager | net10.0 |
+| System.Diagnostics.EventLog | Transitive | - | 10.0.5 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Microsoft.Build, System.Configuration.ConfigurationManager | System.Diagnostics.EventLog -> Microsoft.Build | net10.0 |
+| System.Reflection.MetadataLoadContext | Direct | 10.0.5 | 10.0.5 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Microsoft.Build | System.Reflection.MetadataLoadContext | net10.0 |
+| System.Security.Cryptography.Pkcs | Transitive | - | 8.0.1 | outdated->10.0.5 | - | 32.10 (Medium) | 49.20 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | 2026-04-05T03:08:58.6646597+00:00 | Upgrade to 10.0.5. | No | NuGet.Packaging | System.Security.Cryptography.Pkcs -> NuGet.Packaging | net10.0 |
+| System.Security.Cryptography.ProtectedData | Transitive | - | 10.0.5 | ok | - | 27.90 (Medium) | 40.80 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | Microsoft.Build, NuGet.Configuration, System.Configuration.ConfigurationManager | System.Security.Cryptography.ProtectedData -> Microsoft.Build | net10.0 |
+| System.ValueTuple | Direct | 4.6.2 | 4.6.2 | ok | - | 31.10 (Medium) | 44.00 (Medium) | 2026-04-05T03:08:58.6646597+00:00 | - | - | No | - | System.ValueTuple | net10.0 |
+
+#### Dependency Graph Table
+
+| From Package | To Package | TFM |
+|---|---|---|
+| MessagePack | MessagePack.Annotations | net10.0 |
+| MessagePack | MessagePackAnalyzer | net10.0 |
+| MessagePack | Microsoft.NET.StringTools | net10.0 |
+| Microsoft.Build | Microsoft.Build.Framework | net10.0 |
+| Microsoft.Build | Microsoft.NET.StringTools | net10.0 |
+| Microsoft.Build | System.Configuration.ConfigurationManager | net10.0 |
+| Microsoft.Build | System.Diagnostics.EventLog | net10.0 |
+| Microsoft.Build | System.Reflection.MetadataLoadContext | net10.0 |
+| Microsoft.Build | System.Security.Cryptography.ProtectedData | net10.0 |
+| Microsoft.Data.Sqlite | Microsoft.Data.Sqlite.Core | net10.0 |
+| Microsoft.Data.Sqlite | SQLitePCLRaw.bundle_e_sqlite3 | net10.0 |
+| Microsoft.Data.Sqlite | SQLitePCLRaw.core | net10.0 |
+| Microsoft.Data.Sqlite.Core | SQLitePCLRaw.core | net10.0 |
+| Microsoft.VisualStudio.Threading.Only | Microsoft.VisualStudio.Validation | net10.0 |
+| Nerdbank.MessagePack | Microsoft.NET.StringTools | net10.0 |
+| Nerdbank.MessagePack | Microsoft.VisualStudio.Validation | net10.0 |
+| Nerdbank.MessagePack | PolyType | net10.0 |
+| Nerdbank.Streams | Microsoft.VisualStudio.Threading.Only | net10.0 |
+| Nerdbank.Streams | Microsoft.VisualStudio.Validation | net10.0 |
+| NuGet.Common | NuGet.Frameworks | net10.0 |
+| NuGet.Configuration | NuGet.Common | net10.0 |
+| NuGet.Configuration | System.Security.Cryptography.ProtectedData | net10.0 |
+| NuGet.DependencyResolver.Core | NuGet.Configuration | net10.0 |
+| NuGet.DependencyResolver.Core | NuGet.LibraryModel | net10.0 |
+| NuGet.DependencyResolver.Core | NuGet.Protocol | net10.0 |
+| NuGet.LibraryModel | NuGet.Common | net10.0 |
+| NuGet.LibraryModel | NuGet.Versioning | net10.0 |
+| NuGet.Packaging | Newtonsoft.Json | net10.0 |
+| NuGet.Packaging | NuGet.Configuration | net10.0 |
+| NuGet.Packaging | NuGet.Versioning | net10.0 |
+| NuGet.Packaging | System.Security.Cryptography.Pkcs | net10.0 |
+| NuGet.ProjectModel | NuGet.DependencyResolver.Core | net10.0 |
+| NuGet.Protocol | NuGet.Packaging | net10.0 |
+| NuGetAudit.DbUtilities | Microsoft.Data.Sqlite | net10.0 |
+| SQLitePCLRaw.bundle_e_sqlite3 | SQLitePCLRaw.lib.e_sqlite3 | net10.0 |
+| SQLitePCLRaw.bundle_e_sqlite3 | SQLitePCLRaw.provider.e_sqlite3 | net10.0 |
+| SQLitePCLRaw.provider.e_sqlite3 | SQLitePCLRaw.core | net10.0 |
+| StreamJsonRpc | MessagePack | net10.0 |
+| StreamJsonRpc | Microsoft.VisualStudio.Threading.Only | net10.0 |
+| StreamJsonRpc | Microsoft.VisualStudio.Validation | net10.0 |
+| StreamJsonRpc | Nerdbank.MessagePack | net10.0 |
+| StreamJsonRpc | Nerdbank.Streams | net10.0 |
+| StreamJsonRpc | Newtonsoft.Json | net10.0 |
+| System.Composition | System.Composition.AttributedModel | net10.0 |
+| System.Composition | System.Composition.Convention | net10.0 |
+| System.Composition | System.Composition.Hosting | net10.0 |
+| System.Composition | System.Composition.Runtime | net10.0 |
+| System.Composition | System.Composition.TypedParts | net10.0 |
+| System.Composition.Convention | System.Composition.AttributedModel | net10.0 |
+| System.Composition.Hosting | System.Composition.Runtime | net10.0 |
+| System.Composition.TypedParts | System.Composition.AttributedModel | net10.0 |
+| System.Composition.TypedParts | System.Composition.Hosting | net10.0 |
+| System.Composition.TypedParts | System.Composition.Runtime | net10.0 |
+| System.Configuration.ConfigurationManager | System.Diagnostics.EventLog | net10.0 |
+| System.Configuration.ConfigurationManager | System.Security.Cryptography.ProtectedData | net10.0 |
+
+#### Dependency Graph Mermaid
+
+```mermaid
+graph TD
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACK["MessagePack\n3.1.4\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACK_ANNOTATIONS["MessagePack.Annotations\n3.1.4\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACKANALYZER["MessagePackAnalyzer\n3.1.4\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD["Microsoft.Build\n18.4.0\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD_FRAMEWORK["Microsoft.Build.Framework\n18.4.0\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD_LOCATOR["Microsoft.Build.Locator\n1.11.2\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_DATA_SQLITE["Microsoft.Data.Sqlite\n10.0.5\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_DATA_SQLITE_CORE["Microsoft.Data.Sqlite.Core\n10.0.5\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_NET_STRINGTOOLS["Microsoft.NET.StringTools\n18.4.0\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_SDK_ANALYZERS["Microsoft.VisualStudio.SDK.Analyzers\n17.7.98\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_THREADING_ONLY["Microsoft.VisualStudio.Threading.Only\n17.14.15\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_VALIDATION["Microsoft.VisualStudio.Validation\n17.13.22\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_MESSAGEPACK["Nerdbank.MessagePack\n1.1.25\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_STREAMS["Nerdbank.Streams\n2.13.16\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NEWTONSOFT_JSON["Newtonsoft.Json\n13.0.4\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_COMMON["NuGet.Common\n7.3.0\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_CONFIGURATION["NuGet.Configuration\n7.3.0\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_DEPENDENCYRESOLVER_CORE["NuGet.DependencyResolver.Core\n7.3.0\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_FRAMEWORKS["NuGet.Frameworks\n7.3.0\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_LIBRARYMODEL["NuGet.LibraryModel\n7.3.0\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PACKAGING["NuGet.Packaging\n7.3.0\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PROJECTMODEL["NuGet.ProjectModel\n7.3.0\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PROTOCOL["NuGet.Protocol\n7.3.0\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_VERSIONING["NuGet.Versioning\n7.3.0\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGETAUDIT_DBUTILITIES["NuGetAudit.DbUtilities\n1.0.0\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGETAUDIT_INTELLIGENCE["NuGetAudit.Intelligence\n1.0.0\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_POLYTYPE["PolyType\n1.2.1\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SLNPARSER["SlnParser\n4.1.0\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_BUNDLE_E_SQLITE3["SQLitePCLRaw.bundle_e_sqlite3\n2.1.11\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_CORE["SQLitePCLRaw.core\n2.1.11\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_LIB_E_SQLITE3["SQLitePCLRaw.lib.e_sqlite3\n2.1.11\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_PROVIDER_E_SQLITE3["SQLitePCLRaw.provider.e_sqlite3\n2.1.11\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_STREAMJSONRPC["StreamJsonRpc\n2.24.84\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPONENTMODEL_COMPOSITION["System.ComponentModel.Composition\n10.0.5\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION["System.Composition\n10.0.5\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_ATTRIBUTEDMODEL["System.Composition.AttributedModel\n10.0.5\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_CONVENTION["System.Composition.Convention\n10.0.5\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_HOSTING["System.Composition.Hosting\n10.0.5\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_RUNTIME["System.Composition.Runtime\n10.0.5\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_TYPEDPARTS["System.Composition.TypedParts\n10.0.5\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_CONFIGURATION_CONFIGURATIONMANAGER["System.Configuration.ConfigurationManager\n10.0.5\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_DIAGNOSTICS_EVENTLOG["System.Diagnostics.EventLog\n10.0.5\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_REFLECTION_METADATALOADCONTEXT["System.Reflection.MetadataLoadContext\n10.0.5\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_SECURITY_CRYPTOGRAPHY_PKCS["System.Security.Cryptography.Pkcs\n8.0.1\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_SECURITY_CRYPTOGRAPHY_PROTECTEDDATA["System.Security.Cryptography.ProtectedData\n10.0.5\nTransitive"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_VALUETUPLE["System.ValueTuple\n4.6.2\nDirect"]
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACK --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACK_ANNOTATIONS
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACK --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACKANALYZER
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACK --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_NET_STRINGTOOLS
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD_FRAMEWORK
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_NET_STRINGTOOLS
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_CONFIGURATION_CONFIGURATIONMANAGER
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_DIAGNOSTICS_EVENTLOG
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_REFLECTION_METADATALOADCONTEXT
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_BUILD --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_SECURITY_CRYPTOGRAPHY_PROTECTEDDATA
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_DATA_SQLITE --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_DATA_SQLITE_CORE
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_DATA_SQLITE --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_BUNDLE_E_SQLITE3
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_DATA_SQLITE --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_CORE
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_DATA_SQLITE_CORE --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_CORE
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_THREADING_ONLY --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_VALIDATION
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_MESSAGEPACK --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_NET_STRINGTOOLS
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_MESSAGEPACK --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_VALIDATION
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_MESSAGEPACK --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_POLYTYPE
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_STREAMS --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_THREADING_ONLY
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_STREAMS --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_VALIDATION
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_COMMON --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_FRAMEWORKS
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_CONFIGURATION --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_COMMON
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_CONFIGURATION --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_SECURITY_CRYPTOGRAPHY_PROTECTEDDATA
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_DEPENDENCYRESOLVER_CORE --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_CONFIGURATION
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_DEPENDENCYRESOLVER_CORE --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_LIBRARYMODEL
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_DEPENDENCYRESOLVER_CORE --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PROTOCOL
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_LIBRARYMODEL --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_COMMON
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_LIBRARYMODEL --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_VERSIONING
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PACKAGING --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NEWTONSOFT_JSON
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PACKAGING --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_CONFIGURATION
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PACKAGING --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_VERSIONING
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PACKAGING --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_SECURITY_CRYPTOGRAPHY_PKCS
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PROJECTMODEL --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_DEPENDENCYRESOLVER_CORE
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PROTOCOL --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGET_PACKAGING
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NUGETAUDIT_DBUTILITIES --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_DATA_SQLITE
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_BUNDLE_E_SQLITE3 --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_LIB_E_SQLITE3
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_BUNDLE_E_SQLITE3 --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_PROVIDER_E_SQLITE3
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_PROVIDER_E_SQLITE3 --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SQLITEPCLRAW_CORE
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_STREAMJSONRPC --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MESSAGEPACK
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_STREAMJSONRPC --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_THREADING_ONLY
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_STREAMJSONRPC --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_MICROSOFT_VISUALSTUDIO_VALIDATION
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_STREAMJSONRPC --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_MESSAGEPACK
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_STREAMJSONRPC --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NERDBANK_STREAMS
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_STREAMJSONRPC --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_NEWTONSOFT_JSON
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_ATTRIBUTEDMODEL
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_CONVENTION
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_HOSTING
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_RUNTIME
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_TYPEDPARTS
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_CONVENTION --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_ATTRIBUTEDMODEL
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_HOSTING --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_RUNTIME
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_TYPEDPARTS --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_ATTRIBUTEDMODEL
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_TYPEDPARTS --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_HOSTING
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_TYPEDPARTS --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_COMPOSITION_RUNTIME
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_CONFIGURATION_CONFIGURATIONMANAGER --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_DIAGNOSTICS_EVENTLOG
+    NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_CONFIGURATION_CONFIGURATIONMANAGER --> NC__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_C__USERS_WINDO_ONEDRIVE_DOCUMENTS_DEVELOPMENT_NUGET_SRC_NUGETAUDIT_CORE_NUGETAUDIT_CORE_CSPROJ_NET10_0_NONE_SYSTEM_SECURITY_CRYPTOGRAPHY_PROTECTEDDATA
+```
+
+## Snapshot Warnings
+
+- Package health metadata was not available for 'NuGetAudit.DbUtilities' from nuget.org.
+- Package health metadata was not available for 'NuGetAudit.Intelligence' from nuget.org.
+- Attention required: 7 package diagnostics are warnings.

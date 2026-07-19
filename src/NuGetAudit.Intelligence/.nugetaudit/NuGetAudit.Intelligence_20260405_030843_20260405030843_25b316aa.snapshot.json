@@ -1,0 +1,38 @@
+{
+  "SnapshotId": "20260405030843_25b316aa",
+  "CapturedUtc": "2026-04-05T03:08:43.071259+00:00",
+  "NormalisedContentHash": "BE35B720F571DFDC961490F635C9EE7EA72286FC670E97436AD4AACC84724E6F",
+  "AnalysisStatus": "Complete",
+  "Solution": {
+    "SolutionName": "NuGetAudit.Intelligence",
+    "SolutionPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Intelligence\\NuGetAudit.Intelligence.csproj",
+    "SolutionKey": "1DFA365E80953E8E",
+    "SourceIdentity": {
+      "IdentityKey": "1DFA365E80953E8E",
+      "IdentityKind": "disk-path",
+      "MachineName": "SURFACELAPTOP7",
+      "InputPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Intelligence\\NuGetAudit.Intelligence.csproj",
+      "RepositoryRootPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Intelligence",
+      "GitRemoteUrl": null,
+      "GitRemoteKey": null
+    }
+  },
+  "Projects": [
+    {
+      "ProjectId": "46BC33357FC31C0D",
+      "ProjectName": "NuGetAudit.Intelligence",
+      "ProjectPath": "C:\\Users\\windo\\OneDrive\\Documents\\Development\\Nuget\\src\\NuGetAudit.Intelligence\\NuGetAudit.Intelligence.csproj",
+      "ProjectStyle": "Unknown",
+      "LoadState": "Loaded",
+      "AnalysisStatus": "Complete",
+      "TargetFrameworks": "net10.0",
+      "AssetsFilePath": null,
+      "PackagesLockFilePath": null,
+      "Packages": [],
+      "DependencyEdges": [],
+      "Diagnostics": [],
+      "Warnings": []
+    }
+  ],
+  "Warnings": []
+}
