@@ -4,6 +4,8 @@ A multi-surface NuGet package auditing system for .NET solutions. Answers: *"Wha
 
 Surfaces the same analysis engine from three delivery surfaces: a command-line runner, a standalone WPF workbench, and a Visual Studio extension (VSIX).
 
+**Source last updated:** 2026-04-04
+
 **Initiated:** 2025-06-24 · **Framework:** .NET 10 · **Solution:** `NuGetAudit.slnx`
 
 ---
