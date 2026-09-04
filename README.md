@@ -43,3 +43,8 @@ Surfaces the same analysis engine from three delivery surfaces: a command-line r
 **Workbench:** Open `NuGetAudit.slnx` in Visual Studio, start `NuGetAudit.Workbench`.
 
 **VS Extension:** Build and deploy `NuGetAudit.VisualStudioHost` VSIX.
+
+## Requirements
+
+- .NET 10.0, .NET Framework 4.72, netstandard2.0
+
